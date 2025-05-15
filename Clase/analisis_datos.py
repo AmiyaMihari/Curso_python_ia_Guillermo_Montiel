@@ -19,7 +19,7 @@ def get_state(id):
     return idstate.get(id, "Desconocido")
 
 # Cargar datos
-data = pd.read_csv("Computos2006-Presidente.txt", sep="|")
+data = pd.read_csv("Clase/Computos2006-Presidente.txt", sep="|")
 st.markdown("# Análisis de datos de las votaciones del 2006")
 st.markdown("Primero cargamos los datos")
 st.write(f"Número de entradas: {data.shape[0]}")
